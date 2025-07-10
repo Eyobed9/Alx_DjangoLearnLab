@@ -1,6 +1,6 @@
 ``` shell 
 from bookshelf.models import Book
-book = Book.objects.first()
+book = Book.objects.get()
 
 print(book.title)  # Output: "1984"
 print(book.author)  # Output: "George Orwell"   
