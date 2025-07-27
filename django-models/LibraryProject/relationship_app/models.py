@@ -36,3 +36,4 @@ class Librarian(models.Model):
 
 
 # # LibraryProject/relationship_app/urls.py doesn't contain: ["views.register", "LogoutView.as_view(template_name=", "LoginView.as_view(template_name="]
+#LibraryProject/relationship_app/models.py doesn't contain: ["class UserProfile(models.Model):", "Admin", "Member"]
