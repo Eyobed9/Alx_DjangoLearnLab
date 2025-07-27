@@ -46,3 +46,6 @@ def user_register(request):
 def user_logout(request):
     logout(request)
     return render(request, "relationship_app/logout.html")
+
+
+# LibraryProject/relationship_app/views.py doesn't contain: ["from django.contrib.auth import login", "from django.contrib.auth.forms import UserCreationForm"]
