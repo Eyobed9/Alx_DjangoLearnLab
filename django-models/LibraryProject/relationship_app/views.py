@@ -12,3 +12,4 @@ class LibraryDetailView(DetailView):
     template_name = "library_detail.html"
     context_object_name = "library"
 # relationship_app/list_books.html", "Book.objects.all()"]
+# "relationship_app/library_detail.html", "from .models import Library"
