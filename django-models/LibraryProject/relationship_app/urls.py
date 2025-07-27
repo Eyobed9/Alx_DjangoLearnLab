@@ -15,3 +15,4 @@ urlpatterns = [
     path("books/delete/<int:pk>/", views.delete_book, name="delete_book"),
 ]
 # LibraryProject/relationship_app/urls.py doesn't contain: ["views.register", "LogoutView.as_view(template_name=", "LoginView.as_view(template_name="]
+# "add_book/", "edit_book/"]
