@@ -33,3 +33,6 @@ class Librarian(models.Model):
 
     def __str__(self):
         return self.name
+
+
+# # LibraryProject/relationship_app/urls.py doesn't contain: ["views.register", "LogoutView.as_view(template_name=", "LoginView.as_view(template_name="]
