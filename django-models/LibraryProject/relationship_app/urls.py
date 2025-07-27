@@ -8,3 +8,4 @@ urlpatterns = [
     path("logout/", user_logout, name="logout"),
     path("register/", user_register, name="register"),
 ]
+# LibraryProject/relationship_app/urls.py doesn't contain: ["views.register", "LogoutView.as_view(template_name=", "LoginView.as_view(template_name="]

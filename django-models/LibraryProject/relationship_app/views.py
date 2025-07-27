@@ -49,3 +49,4 @@ def user_logout(request):
 
 
 # LibraryProject/relationship_app/views.py doesn't contain: ["from django.contrib.auth import login", "from django.contrib.auth.forms import UserCreationForm"]
+
