@@ -1,0 +1,10 @@
+[
+    {
+        "model": "api.Book",
+        "pk": 1,
+        "fields": {
+            "title": "The Pilgrims progress",
+            "author": "James Bunyan"
+        }
+    }
+]
