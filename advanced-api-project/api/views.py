@@ -34,6 +34,7 @@ class DeleteView(generics.DestroyAPIView):
     
     
     from rest_framework import generics
+    from django_filters import rest_framework
 from rest_framework import filters
 from django_filters.rest_framework import DjangoFilterBackend
 from .models import Book
