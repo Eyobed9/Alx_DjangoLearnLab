@@ -83,3 +83,7 @@ class BookAPITests(TestCase):
         response = self.client.post(url, data, format='json')
         # APITestCase
         self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN) # Or 401, depending on your auth setup
+        
+        
+        
+        # self.client.login
