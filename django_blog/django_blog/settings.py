@@ -30,6 +30,12 @@ ALLOWED_HOSTS = []
 LOGIN_REDIRECT_URL = "profile"
 LOGOUT_REDIRECT_URL = "profile"
 
+# STATIC_URL = '/static/'
+
+# STATICFILES_DIRS = [
+#     BASE_DIR / "static",
+# ]
+
 AUTH_USER_MODEL = "blog.User"
 
 # Application definition
