@@ -3,7 +3,7 @@ from django.contrib.auth.models import AbstractUser
 # from django.contrib.auth.models import User
 
 class User(AbstractUser):
-    pass
+    bio = models.TextField()
 
 class Post(models.Model):
     title = models.CharField(max_length=200)
