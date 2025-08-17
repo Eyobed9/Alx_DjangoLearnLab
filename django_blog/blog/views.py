@@ -39,4 +39,6 @@ class PostDetailView(DetailView):
     template_name = "posts/post_detail.html"
     
    # "ListView", "DetailView", "DeleteView"
+   
+#    "CommentCreateView", "CommentUpdateView", "UserPassesTestMixin", "CommentDeleteView"]
     
