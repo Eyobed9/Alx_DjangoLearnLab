@@ -10,3 +10,6 @@ class Post(models.Model):
     content = models.TextField()
     published_date = models.DateTimeField(auto_now_add=True)
     author = models.ForeignKey(User, related_name='posts', on_delete=models.CASCADE)
+    
+    
+# Comment(models.Model)", "created_at", "updated_at"]
