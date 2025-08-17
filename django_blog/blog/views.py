@@ -38,3 +38,5 @@ class PostDetailView(DetailView):
     context_object_name = "post"
     template_name = "posts/post_detail.html"
     
+   # "ListView", "DetailView", "DeleteView"
+    
