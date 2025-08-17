@@ -12,3 +12,4 @@ class ProfileUpdateForm(forms.ModelForm):
         model = User
         fields = ["email", "bio"]
         
+# CommentForm(forms.ModelForm)", "model = Comment", "content"]
