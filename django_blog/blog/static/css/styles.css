@@ -84,3 +84,23 @@ button, input[type="submit"] {
 button:hover {
 	background-color: rgb(130, 130, 224);
 }
+
+.btn {
+	background-color: #333;
+}
+
+.btn:hover {
+	background-color: #7d7d7d;
+}
+
+.post_list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 10px;
+	border: 1px solid #333;
+	list-style: none;
+	margin-top: 6px;
+	border-radius: .2rem;
+	width: 600px;
+}
